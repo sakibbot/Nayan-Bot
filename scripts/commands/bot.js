@@ -62,15 +62,15 @@ module.exports = {
 
       if (!msg) {
         const greetings = [
-          "আহ শুনা আমার তোমার অলিতে গলিতে উম্মাহ😇😘",
-          "কি গো সোনা আমাকে ডাকছ কেনো",
-          "বার বার আমাকে ডাকস কেন😡",
-          "আহ শোনা আমার আমাকে এতো ডাক্তাছো কেনো আসো বুকে আশো🥱",
-          "হুম জান তোমার অইখানে উম্মমাহ😷😘",
-          "আসসালামু আলাইকুম বলেন আপনার জন্য কি করতে পারি",
-          "আমাকে এতো না ডেকে বস নয়নকে একটা গফ দে 🙄",
-          "jang hanga korba",
-          "jang bal falaba🙂"
+          "Hmm jannnn bolo😇😘",
+          "Ki goo amake dakcho keno?🥱",
+          "Bar bar amake eto dakis ken?😡",
+          "Buke aso janemannn🥱",
+          "Assalamu alaikum🌸",
+          "Apnr jonno ki korte pari?",
+          "Amake eto na deke sakib bhai ke ekta gf de🙄",
+          "Amr boss ke message deo.🙂‍↔️ m.me/2ndJohnnySins/",
+          "Ei neo juice khao, bot bot korte to hapiye gecho🍹"
         ];
         const name = await Users.getNameUser(events.senderID);
         const rand = greetings[Math.floor(Math.random() * greetings.length)];
